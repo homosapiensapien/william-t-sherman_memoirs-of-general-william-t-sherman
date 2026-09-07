@@ -1,0 +1,1 @@
+Frontispiece confirmed public domain. See [https://www.google.com/books/edition/Human_Documents/yfBU_WBuw7UC?hl=en&gbpv=1&dq=william+sherman+%22sarony%22&pg=PA71&printsec=frontcover](Human Documents: Portraits and Biographies of Eminent Men) published in 1895.
