@@ -9,7 +9,8 @@
   text-align: center;
 }
 
-#dedication footer {
+#dedication footer,
+#preface footer {
   margin-top: 1em;
   text-align: right;
 }
