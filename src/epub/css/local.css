@@ -47,6 +47,12 @@ p[epub|type~="z3998:salutation"],
 	text-align: initial;
 	text-indent: 0;
 }
+
+.telegram,
+.telegram [epub|type~="z3998:sender"],
+.telegram header{
+	font-variant: all-small-caps;
+}
 /* End letters */
 
 #dedication header{
