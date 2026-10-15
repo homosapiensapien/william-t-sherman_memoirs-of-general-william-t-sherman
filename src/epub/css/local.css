@@ -21,7 +21,7 @@ figure.full-page{
 /* End figures */
 
 /* letters */
-[epub|type~="z3998:letter"] header{
+[epub|type~="z3998:letter"] header[role="presentation"]{
 	font-variant: small-caps;
 	margin-bottom: 1em;
 	text-align: initial;
@@ -56,6 +56,46 @@ p[epub|type~="z3998:salutation"],
 	font-variant: all-small-caps;
 }
 /* End letters */
+
+/* tables */
+table{
+	border-collapse: collapse;
+	font-variant-numeric: tabular-nums;
+	margin: 1em auto;
+}
+
+td{
+	border-left: 1px solid;
+	border-right: 1px solid;
+	text-align: center;
+}
+
+caption,
+td,
+th{
+	padding: 0.25em;
+}
+
+caption{
+	font-variant: small-caps;
+}
+
+tbody{
+	border: 1px solid;
+}
+
+tbody tr th{
+	text-align: initial;
+}
+
+tbody tr:last-child td{
+	border-top: 1px solid;
+}
+
+thead th{
+	border: 1px solid;
+}
+/* end tables */
 
 #dedication header{
 	font-size: 1.5em;
